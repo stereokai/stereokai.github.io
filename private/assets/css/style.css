@@ -1421,7 +1421,8 @@ body {
     -webkit-animation: neon1 1.5s ease-in-out 1 alternate forwards;
             animation: neon1 1.5s ease-in-out 1 alternate forwards; }
     .logo:hover > svg {
-      fill: #fff; }
+      -webkit-animation: neon2 .4s ease-in-out 1 alternate forwards;
+              animation: neon2 .4s ease-in-out 1 alternate forwards; }
   .logo > svg {
     transition: fill .5s .01s;
     fill: #262626; }
@@ -1584,11 +1585,17 @@ div.wrapper {
 
 @-webkit-keyframes neon1 {
   from {
-    -webkit-filter: drop-shadow(0 0 1px #fff) drop-shadow(0 0 2px #fff) drop-shadow(0 0 3px #fff) drop-shadow(0 0 4px rgba(255, 17, 119, 0.3)) drop-shadow(0 0 7px rgba(255, 17, 119, 0.3)) drop-shadow(0 0 10px rgba(255, 17, 119, 0.3)) drop-shadow(0 0 15px rgba(255, 17, 119, 0.1)) drop-shadow(0 0 20px #ff1177);
-            filter: drop-shadow(0 0 1px #fff) drop-shadow(0 0 2px #fff) drop-shadow(0 0 3px #fff) drop-shadow(0 0 4px rgba(255, 17, 119, 0.3)) drop-shadow(0 0 7px rgba(255, 17, 119, 0.3)) drop-shadow(0 0 10px rgba(255, 17, 119, 0.3)) drop-shadow(0 0 15px rgba(255, 17, 119, 0.1)) drop-shadow(0 0 20px #ff1177); }
+    -webkit-filter: drop-shadow(0 0 1px rgba(255, 17, 119, 0.3)) drop-shadow(0 0 2px #fff) drop-shadow(0 0 3px #fff) drop-shadow(0 0 4px rgba(255, 17, 119, 0.3)) drop-shadow(0 0 7px rgba(255, 17, 119, 0.3)) drop-shadow(0 0 10px rgba(255, 17, 119, 0.3)) drop-shadow(0 0 15px rgba(255, 17, 119, 0.1)) drop-shadow(0 0 20px #ff1177);
+            filter: drop-shadow(0 0 1px rgba(255, 17, 119, 0.3)) drop-shadow(0 0 2px #fff) drop-shadow(0 0 3px #fff) drop-shadow(0 0 4px rgba(255, 17, 119, 0.3)) drop-shadow(0 0 7px rgba(255, 17, 119, 0.3)) drop-shadow(0 0 10px rgba(255, 17, 119, 0.3)) drop-shadow(0 0 15px rgba(255, 17, 119, 0.1)) drop-shadow(0 0 20px #ff1177); }
   to {
     -webkit-filter: drop-shadow(0 0 1px #fff) drop-shadow(0 0 2px rgba(255, 255, 255, 0.5)) drop-shadow(0 0 3px rgba(255, 255, 255, 0.5)) drop-shadow(0 0 2px rgba(255, 17, 119, 0.3)) drop-shadow(0 0 4px rgba(255, 17, 119, 0.3)) drop-shadow(0 0 6px rgba(255, 17, 119, 0.3)) drop-shadow(0 0 8px rgba(255, 17, 119, 0.1)) drop-shadow(0 0 11px #ff1177);
             filter: drop-shadow(0 0 1px #fff) drop-shadow(0 0 2px rgba(255, 255, 255, 0.5)) drop-shadow(0 0 3px rgba(255, 255, 255, 0.5)) drop-shadow(0 0 2px rgba(255, 17, 119, 0.3)) drop-shadow(0 0 4px rgba(255, 17, 119, 0.3)) drop-shadow(0 0 6px rgba(255, 17, 119, 0.3)) drop-shadow(0 0 8px rgba(255, 17, 119, 0.1)) drop-shadow(0 0 11px #ff1177); } }
+
+@-webkit-keyframes neon2 {
+  from {
+    fill: #ff1177; }
+  to {
+    fill: #fff; } }
 
 @-webkit-keyframes beacon {
   from {

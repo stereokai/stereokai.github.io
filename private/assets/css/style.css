@@ -227,8 +227,8 @@ html {
   font-size: 62.5%; }
 
 body {
-  background: #362B3B;
-  color: #eee; }
+  background: #EEECEC;
+  color: #262626; }
 
 html {
   min-width: mq(small); }
@@ -1386,7 +1386,7 @@ body {
   font-feature-settings: 'onum' 1, 'kern' 1; }
 
 .header-left, .header-right {
-  background: #362B3B;
+  background: #EEECEC;
   height: 160px;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1424,7 +1424,7 @@ body {
       fill: #fff; }
   .logo > svg {
     transition: fill .5s .01s;
-    fill: #eee; }
+    fill: #262626; }
     .logo > svg:first-child {
       margin-right: -97px; }
   .logo-littleninja {
@@ -1465,6 +1465,9 @@ body {
   min-height: 1rem;
   margin-bottom: 0;
   padding: 1rem; }
+
+main.box {
+  padding: 2rem; }
 
 div.wrapper {
   display: -webkit-flex;
